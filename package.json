@@ -1,0 +1,10 @@
+{
+  "name": "hypertension-chatbot",
+  "dependencies": {
+    "@vercel/node": "^5.0.0",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

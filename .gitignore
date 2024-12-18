@@ -1,0 +1,11 @@
+# Node modules
+node_modules
+
+# Vercel
+.vercel
+
+# Bun
+bun.lockb
+
+# Environment variable
+.env
