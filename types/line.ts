@@ -56,7 +56,7 @@ export type LINEReplyData = {
   message: {
     text: {
       text: string;
-      response: LINEReply[];
+      replies: LINEReply[];
     }[];
   };
 };
@@ -83,4 +83,48 @@ export type LINEImageReply = LINEBaseReply & {
   type: 'image';
   originalContentUrl: string;
   previewImageUrl: string;
+};
+export type LINETemplateReply = {
+  type: 'template';
+  altText: string;
+  template: LINETemplate;
+};
+
+export type LINETemplate = LINEButtonTemplate;
+
+export type LINEButtonTemplate = {
+  type: 'buttons';
+  text: string;
+  actions: LINEAction[];
+};
+
+export type LINEAction = LINEPostbackAction | LINEURIAction;
+
+export type LINEPostbackAction = {
+  type: 'postback';
+  label: string;
+  data: string;
+  displayText?: string;
+};
+
+export type LINEURIAction = {
+  type: 'uri';
+  label: string;
+  uri: string;
+};
+
+/* -------------------------------------------------------------------------- */
+
+export type ResponseDataDTO = {
+  message: {
+    text: {
+      texts: string[];
+      replies: LINEReply[];
+    }[];
+  };
+  postback: {
+    [key: string]: Record<string, any> & {
+      replies: LINEReply[];
+    };
+  };
 };
