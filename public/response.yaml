@@ -14,7 +14,7 @@ message:
           altText: 'โรคความดันโลหิตสูง'
           template:
             type: 'buttons'
-            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZ85u51az5Vhb5ZFdZUVwukgzFgMnsDZIDBhXzMnmwA-9yIGOrZhCCoNB62IbEEPGMWYSI-b8B-cPFhatgqTpiAF-hV35hQzeA=s1600-rw-v1'
+            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZyCFuEewPZS9b0ZuI0_6z8u7lRjpJbcas2w3Y_rGA_iOUYiFwht_pVXxhdao3fltCdDGYmI64uVZqxtgkyZ6ZrlVMkjuiu4A=s1600-rw-v1'
             text: 'คุณอยากรู้ข้อมูลเกี่ยวกับโรคความดันโลหิตสูงอะไรบ้าง 🤔'
             actions:
               - type: 'postback'
@@ -55,37 +55,37 @@ message:
           template:
             type: 'image_carousel'
             columns:
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZIQ85f0YgRBvCaTNce1xpwLbiEz5g9i-oJQ6C-qzlgTIQvDYCQq8wwA-jYmmuNcZx5LkUvmDE3X3KRW9P9hdKCbQdOoOK3DnA=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันจันทร์' # No more than 12 characters
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihbwS4Nyj7E6DER0-SLDpQsVAZBIbCfqV4nxnurmJRorXpXJEi5LZ-OVg2tm7HRwb0A8P8mCBlx9DwYIrQ3YPP8Z1Fck8e3k1g=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันอังคาร'
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZQFz9cFfBkL9UCPIWUqzHnjPEoA6QB26Y-srDAa3y-5seGpGrLTx31RqrBNiKH_l-BJeThDZgrus15sJTMhlSamPXEVxAuprw=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันพุธ'
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZoaQb3gs7mCbdaTvzF-1m_uRczY1A_rhTX35PQ6kydhKZXFHAGqFt4aT33gyJT8jU6XdW8WiLPZAQqTgitwn38cgJQ5b7XMg=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันพฤหัสบดี'
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZn59onFS6TMyzdTcmmFLIazRS5Ku4BOOB-Dne2x1D9G9PQcuCLJWC5mh42JGCeFhuYWysqsb-yJKHagxZ-xH2dG-23r5yr2w=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันศุกร์'
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZwPHdo9rrfkGUB1GquYDS_EfwFqmuqcf8WP9-2kPNQ3uccRHfBDcL3Mlptwy6_iOYrB9vvvUza8HNL0v03oqzzaYyTmlmEPnM=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันเสาร์'
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://i.pinimg.com/originals/b4/5c/9c/b45c9c871b3740865e7c7d184aade9a6.jpg'
+              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihbi6qNkz7Q6RA9PLtn1lHY5BgTi2cF9Tkjvsx-txTYlqDb-HlnfFasRVYiqF1FZoRzSGO2neTrdlxLNduqlIHlnq7jeeML0mKk=s1600-rw-v1'
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันอาทิตย์'
