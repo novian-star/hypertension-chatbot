@@ -20,10 +20,12 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     else if (body.destination && body.events.length > 0) {
       const event = body.events[0] as LINEEvent;
 
+      console.log('LINE event:', event);
+
       // Handles LINE events.
       const replies = await handleLINEEvent(event);
 
-      console.log(replies);
+      console.log('LINE replies:', replies);
 
       // Replies to the LINE event.
       await replyLINEMessage(event.replyToken, replies);
@@ -115,39 +117,11 @@ const handleLINEPostback = (postback: LINEPostback, responses: ResponseDataDTO['
 async function getResponseData(): Promise<ResponseDataDTO> {
   const fallbackDataURL = '/public/response.yaml';
 
-  try {
-    /**
-     * Attempts to fetch data from the primary URL.
-     * Throws an error if the fetch fails or if the content type is unsupported.
-     */
-    const response = await fetch(process.env.RESPONSE_DATA_URL || '');
+  const dataPath = path.join(process.cwd() + fallbackDataURL);
 
-    if (!response.ok) {
-      throw new Error('Primary URL fetch failed');
-    }
+  const file = await fs.promises.readFile(dataPath, 'utf-8');
 
-    const contentType = response.headers.get('content-type');
-
-    if (contentType && contentType.includes('application/octet-stream')) {
-      const buffer = await response.arrayBuffer();
-
-      const yamlText = new TextDecoder().decode(buffer);
-
-      return parse(yamlText);
-    } else if (contentType && contentType.includes('text')) {
-      const yamlText = await response.text();
-
-      return parse(yamlText);
-    } else {
-      throw new Error('Unsupported content type');
-    }
-  } catch (error) {
-    const dataPath = path.join(process.cwd() + fallbackDataURL);
-
-    const file = await fs.promises.readFile(dataPath, 'utf-8');
-
-    return parse(file);
-  }
+  return parse(file);
 }
 
 async function replyLINEMessage(replyToken: string, replies: LINEReply[]) {
