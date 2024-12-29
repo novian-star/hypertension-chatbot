@@ -14,7 +14,7 @@ message:
           altText: 'โรคความดันโลหิตสูง'
           template:
             type: 'buttons'
-            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZyCFuEewPZS9b0ZuI0_6z8u7lRjpJbcas2w3Y_rGA_iOUYiFwht_pVXxhdao3fltCdDGYmI64uVZqxtgkyZ6ZrlVMkjuiu4A=s1600-rw-v1'
+            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihaI6yD7Y2t4q9OmePYalV5XQrzPtMaEVOhXN_XBRKmZoIADKz_S30kWfcfYSskEGyDrN-Oe9_kRulYHZnf3Pa53ezmSQjDHbA=s1600-rw-v1'
             text: 'คุณอยากรู้ข้อมูลเกี่ยวกับโรคความดันโลหิตสูงอะไรบ้าง 🤔'
             actions:
               - type: 'postback'
@@ -36,7 +36,7 @@ message:
           altText: 'การดูแลรักษาและการป้องกัน'
           template:
             type: 'buttons'
-            thumbnailImageUrl: 'https://th.bing.com/th/id/R.09b31cdb8a306058acc8f99b25bbb37a?rik=Pf6j4TrZGP0jQw&pid=ImgRaw&r=0'
+            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihYWQUZaYKSJK2hToufR_-tk5JnpwiR6cABRyygNAwJEJlKWW-XAhO7Lfm_rG9Qiyg9PEgndPzrZdlzN8kTg9ZieLenNvBiFZAM=s1600-rw-v1'
             text: 'กดเลือกเมนูด้านล่างได้เลย'
             actions:
               - type: 'postback'
@@ -59,6 +59,7 @@ message:
                 action:
                   type: 'uri'
                   label: 'สวัสดีวันจันทร์' # No more than 12 characters
+                  # ใส่ลิงค์วิดีโอที่ต้องการให้เปิด
                   uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
               - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihbwS4Nyj7E6DER0-SLDpQsVAZBIbCfqV4nxnurmJRorXpXJEi5LZ-OVg2tm7HRwb0A8P8mCBlx9DwYIrQ3YPP8Z1Fck8e3k1g=s1600-rw-v1'
                 action:
