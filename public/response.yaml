@@ -14,7 +14,7 @@ message:
           altText: 'โรคความดันโลหิตสูง'
           template:
             type: 'buttons'
-            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihaI6yD7Y2t4q9OmePYalV5XQrzPtMaEVOhXN_XBRKmZoIADKz_S30kWfcfYSskEGyDrN-Oe9_kRulYHZnf3Pa53ezmSQjDHbA=s1600-rw-v1'
+            thumbnailImageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/hypertension-thumbnail.jpg'
             text: 'คุณอยากรู้ข้อมูลเกี่ยวกับโรคความดันโลหิตสูงอะไรบ้าง 🤔'
             actions:
               - type: 'postback'
@@ -36,7 +36,7 @@ message:
           altText: 'การดูแลรักษาและการป้องกัน'
           template:
             type: 'buttons'
-            thumbnailImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihYWQUZaYKSJK2hToufR_-tk5JnpwiR6cABRyygNAwJEJlKWW-XAhO7Lfm_rG9Qiyg9PEgndPzrZdlzN8kTg9ZieLenNvBiFZAM=s1600-rw-v1'
+            thumbnailImageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/treatment-thumbnail.jpg'
             text: 'กดเลือกเมนูด้านล่างได้เลย'
             actions:
               - type: 'postback'
@@ -55,42 +55,42 @@ message:
           template:
             type: 'image_carousel'
             columns:
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZIQ85f0YgRBvCaTNce1xpwLbiEz5g9i-oJQ6C-qzlgTIQvDYCQq8wwA-jYmmuNcZx5LkUvmDE3X3KRW9P9hdKCbQdOoOK3DnA=s1600-rw-v1'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันจันทร์' # No more than 12 characters
+                  label: 'รู้เท่าทันโรค' # No more than 12 characters
                   # ใส่ลิงค์วิดีโอที่ต้องการให้เปิด
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihbwS4Nyj7E6DER0-SLDpQsVAZBIbCfqV4nxnurmJRorXpXJEi5LZ-OVg2tm7HRwb0A8P8mCBlx9DwYIrQ3YPP8Z1Fck8e3k1g=s1600-rw-v1'
+                  uri: 'https://youtu.be/m3LJrfic7Z0?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันอังคาร'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZQFz9cFfBkL9UCPIWUqzHnjPEoA6QB26Y-srDAa3y-5seGpGrLTx31RqrBNiKH_l-BJeThDZgrus15sJTMhlSamPXEVxAuprw=s1600-rw-v1'
+                  label: 'อาการของโรค'
+                  uri: 'https://youtu.be/xR-8eSWH3bM?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันพุธ'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZoaQb3gs7mCbdaTvzF-1m_uRczY1A_rhTX35PQ6kydhKZXFHAGqFt4aT33gyJT8jU6XdW8WiLPZAQqTgitwn38cgJQ5b7XMg=s1600-rw-v1'
+                  label: '5วิธี ลดความดัน'
+                  uri: 'https://youtu.be/PpJtvK7MQ2Y?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันพฤหัสบดี'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZn59onFS6TMyzdTcmmFLIazRS5Ku4BOOB-Dne2x1D9G9PQcuCLJWC5mh42JGCeFhuYWysqsb-yJKHagxZ-xH2dG-23r5yr2w=s1600-rw-v1'
+                  label: 'วัดความดันที่บ้าน'
+                  uri: 'https://youtu.be/c7aqdiLWW6Y?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันศุกร์'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZwPHdo9rrfkGUB1GquYDS_EfwFqmuqcf8WP9-2kPNQ3uccRHfBDcL3Mlptwy6_iOYrB9vvvUza8HNL0v03oqzzaYyTmlmEPnM=s1600-rw-v1'
+                  label: 'ควบคุมอาหาร'
+                  uri: 'https://youtu.be/lIDAdLfSx7s?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันเสาร์'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
-              - imageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihbi6qNkz7Q6RA9PLtn1lHY5BgTi2cF9Tkjvsx-txTYlqDb-HlnfFasRVYiqF1FZoRzSGO2neTrdlxLNduqlIHlnq7jeeML0mKk=s1600-rw-v1'
+                  label: 'วิธีออกกำลังกาย'
+                  uri: 'https://youtu.be/VoYs9S8Tcsc?feature=shared'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'สวัสดีวันอาทิตย์'
-                  uri: 'https://youtu.be/dNr7nXvntO8?si=fVThMzD5J1awXah2'
+                  label: 'Dr Talk'
+                  uri: 'https://youtu.be/m4sQbf74XJ4?feature=shared'
 postback:
   question:
     - questions:
@@ -99,35 +99,35 @@ postback:
         - type: text
           text: 'โรคความดันโลหิตสูง คือ โรคเรื้อรังที่เกิดจากการเพิ่มความดันโลหิตในหลอดเลือด ทำให้หัวใจต้องใช้แรงมากขึ้นในการส่งเลือดไปทั่วร่างกาย ซึ่งสามารถทำให้เกิดภาวะโรคหัวใจวาย อัมพฤกษ์ และอื่นๆ ได้ 🩸'
         - type: image
-          originalContentUrl: 'https://i.pinimg.com/474x/1a/87/bd/1a87bd2d4bdb90f94d068fdf69179446.jpg'
-          previewImageUrl: 'https://i.pinimg.com/474x/1a/87/bd/1a87bd2d4bdb90f94d068fdf69179446.jpg'
+          originalContentUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/what-is-hypertension.jpg'
+          previewImageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/what-is-hypertension.jpg'
     - questions:
         - 'what-is-risk-of-hypertension'
       replies:
         - type: text
-          text: 'กิจวัตรประจำวันบางอย่างอาจจะนำไปสู่ความเสี่ยงที่ก่อให้เกิดโรคความดันโลหิตสูงได้ เช่น การทานอาหารที่มีปริาณของโซเดียมมากๆ การสูบบุหรี่จัด สภาวะเครียดสะสมเป็นเวลานานๆ'
+          text: 'กิจวัตรประจำวันบางอย่างอาจจะนำไปสู่ความเสี่ยงที่ก่อให้เกิดโรคความดันโลหิตสูงได้ เช่น การทานอาหารที่มีปริมาณของโซเดียมมากๆ การสูบบุหรี่จัด สภาวะเครียดสะสมเป็นเวลานานๆ'
         - type: image
-          originalContentUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihYl_vBThTINDo2lRTV6bPYHRi1X1-YiMKbGWmyLibG2WlZQ4NywGiIE277K0egrKqQl0P-wP446exCpQKNjQMrfdlSsM2wLuA=s1600-rw-v1'
-          previewImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihYl_vBThTINDo2lRTV6bPYHRi1X1-YiMKbGWmyLibG2WlZQ4NywGiIE277K0egrKqQl0P-wP446exCpQKNjQMrfdlSsM2wLuA=s1600-rw-v1'
+          originalContentUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/risk.jpg'
+          previewImageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/risk.jpg'
     - questions:
         - 'how-is-hypertension-symptom'
       replies:
         - type: text
-          text: 'ผู้ป่วยโรคความดันโลหิตสูงใหญ่มักจะไม่แสดงอาการ แต่อาจจะมีอาการปวดหัว มึนงง วิงเวียงศีรษะ อาการอ่อนเพลียมากกว่าปกติ จนไปถึงหน้ามืดหมดสติได้'
+          text: 'ผู้ป่วยโรคความดันโลหิตสูงใหญ่มักจะไม่แสดงอาการ แต่อาจจะมีอาการปวดหัว มึนงง วิงเวียนศีรษะ อาการอ่อนเพลียมากกว่าปกติ จนไปถึงหน้ามืดหมดสติได้'
         - type: image
-          originalContentUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZ85u51az5Vhb5ZFdZUVwukgzFgMnsDZIDBhXzMnmwA-9yIGOrZhCCoNB62IbEEPGMWYSI-b8B-cPFhatgqTpiAF-hV35hQzeA=s1600-rw-v1'
-          previewImageUrl: 'https://drive.google.com/u/0/drive-viewer/AKGpihZ85u51az5Vhb5ZFdZUVwukgzFgMnsDZIDBhXzMnmwA-9yIGOrZhCCoNB62IbEEPGMWYSI-b8B-cPFhatgqTpiAF-hV35hQzeA=s1600-rw-v1'
+          originalContentUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/symptom.jpg'
+          previewImageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/symptom.jpg'
     - questions:
         - 'how-to-take-care'
       replies:
         - type: text
           text: 'โรคความดันโลหิตสูงอาจจะไม่สามารถรักษาให้หายขาดได้ แต่ยังสามารถควบคุมให้อยู่ในเกณฑ์ที่เหมาะสมได้ ดังนี้'
         - type: text
-          text: '1.การลดน้ำหนักให้อยู่ในเกณฑ์มาตรฐาน และรับประทานอาหารที่มีประโยชน์ต่อร่างกาย 🏋️'
+          text: '1.การลดน้ำหนักให้อยู่ในเกณฑ์มาตรฐานหรือในเกณฑ์ใกล้เคียงและรับประทานอาหารที่มีประโยชน์ต่อร่างกาย 🏋️'
         - type: text
           text: '2.การพักผ่อนคลายความเครียดและการออกกำลังกายสม่ำเสมอ 🏖️'
         - type: text
-          text: '3.ลดการดื่มเครื่องดื่มแอลกอฮอล์ และงดสูบบุหรี่ 🚭'
+          text: '3.ลดการดื่มเครื่องดื่มแอลกอฮอล์และงดการสูบบุหรี่ 🚭'
         - type: text
           text: '4.การดูแลสุขภาพของตัวเองเสมอหากมีโรคประจำตัว 🩺'
     - questions:
@@ -136,10 +136,10 @@ postback:
         - type: text
           text: 'การตรวจวัดความดันเองที่บ้าน เป็นแนวทางการควบคุมระดับความดันโลหิตอย่างหนึ่ง รวมถึงยังสามารถใช้เป็นข้อมูลให้กับแพทย์เพื่อประกอบการรักษา'
         - type: text
-          text: '1.วางแผนล่วงหน้าที่จะไม่ดื่มเครื่องดื่มที่มีคาเฟอีน หรือการออกกำลังกายก่อนทำการวัดค่าความดัน 📅'
+          text: '1.วางแผนล่วงหน้าที่จะไม่ดื่มเครื่องดื่มที่มีคาเฟอีน ไม่ทำการออกกำลังกายก่อนทำการวัดค่าความดันและต้องพักผ่อนให้เพียงพอ 📅'
         - type: text
-          text: '2.ไม่วัดความดันโดยที่เสื้อผ้าทับไว้ เพื่อกันความคาดเคลื่อน 🧥'
+          text: '2.ไม่วัดความดันในขณะที่สวมเสื้อผ้าหนาทับไว้ในจุดที่ต้องตรวจ เพื่อกันความคาดเคลื่อนของค่าตรวจวัดความดัน 🧥'
         - type: text
-          text: '3.ควรอยู่นิ่งๆ หรือนั่งเฉยๆ ก่อนทำการวัดค่าความดันสัก 5 นาที 🧘'
+          text: '3.ควรอยู่เฉยๆ หรือนั่งพักนิ่งๆ ก่อนทำการวัดค่าความดันอย่างน้อย 5 นาที 🧘'
         - type: text
-          text: '4.ควรวัดค่าความดันในเวลาเดียวกันซ้ำๆ ในทุกวัน หรือทำการปรึกษาแพทย์เพื่อขอคำแนะนำเพิ่มเติม 👩‍⚕️'
+          text: '4.ควรตรวจวัดค่าความดันในเวลาเดียวกันในทุกวัน หากพบความผิดปกติของค่าความดันจะได้ง่ายต่อการไปพบแพทย์เพื่อรับการรักษาและขอคำแนะนำเพิ่มเติม 👩‍⚕️'
