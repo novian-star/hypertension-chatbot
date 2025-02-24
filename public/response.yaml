@@ -71,7 +71,7 @@ message:
                   type: 'uri'
                   label: 'คลิกเพื่อดู'
                   uri: 'https://youtu.be/PpJtvK7MQ2Y?feature=shared'
-              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-5.jpg'
+              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-4.jpg'
                 action:
                   type: 'uri'
                   label: 'คลิกเพื่อดู'
