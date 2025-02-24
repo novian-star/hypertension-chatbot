@@ -58,39 +58,24 @@ message:
               - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-1.jpg'
                 action:
                   type: 'uri'
-                  label: 'รู้เท่าทันโรค' # No more than 12 characters
+                  label: 'คลิกเพื่อดู' # No more than 12 characters
                   # ใส่ลิงค์วิดีโอที่ต้องการให้เปิด
                   uri: 'https://youtu.be/m3LJrfic7Z0?feature=shared'
               - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-2.jpg'
                 action:
                   type: 'uri'
-                  label: 'อาการของโรค'
+                  label: 'คลิกเพื่อดู'
                   uri: 'https://youtu.be/xR-8eSWH3bM?feature=shared'
               - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-3.jpg'
                 action:
                   type: 'uri'
-                  label: '5วิธี ลดความดัน'
+                  label: 'คลิกเพื่อดู'
                   uri: 'https://youtu.be/PpJtvK7MQ2Y?feature=shared'
-              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-4.jpg'
-                action:
-                  type: 'uri'
-                  label: 'วัดความดันที่บ้าน'
-                  uri: 'https://youtu.be/c7aqdiLWW6Y?feature=shared'
               - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-5.jpg'
                 action:
                   type: 'uri'
-                  label: 'ควบคุมอาหาร'
+                  label: 'คลิกเพื่อดู'
                   uri: 'https://youtu.be/lIDAdLfSx7s?feature=shared'
-              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-6.jpg'
-                action:
-                  type: 'uri'
-                  label: 'วิธีออกกำลังกาย'
-                  uri: 'https://youtu.be/VoYs9S8Tcsc?feature=shared'
-              - imageUrl: 'https://raw.githubusercontent.com/novian-star/hypertension-chatbot/refs/heads/main/public/images/video-7.jpg'
-                action:
-                  type: 'uri'
-                  label: 'Dr Talk'
-                  uri: 'https://youtu.be/m4sQbf74XJ4?feature=shared'
 postback:
   question:
     - questions:
